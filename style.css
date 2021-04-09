@@ -1,7 +1,7 @@
 body{
 background: rgb(100,115,241);
 background: radial-gradient(circle, rgba(100,115,241,1) 0%, rgba(53,57,156,1) 14%, rgba(5,12,99,1) 30%, rgba(6,82,240,1) 52%, rgba(44,3,126,1) 71%);
-text-align: center;
+
 }
 #instructions{
     box-shadow: 5px 5px 600px rgb(212, 24, 24);
@@ -13,9 +13,11 @@ text-align: center;
 #dev{
     width: 100%;
     background-color: lightslategrey;
-    margin-top: 655px;
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
 }
 #note{
     color: black;
